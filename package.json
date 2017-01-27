@@ -1,0 +1,39 @@
+{
+  "name": "react-norouter",
+  "version": "1.0.0",
+  "description": "not a router",
+  "main": "built/bundle.js",
+  "scripts": {
+    "postinstall": "npm link typescript && npm link webpack",
+    "test": "mocha ./built/**/*.tst.js",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "githug.com/D10221/react-norouter.git"
+  },
+  "keywords": [
+    "react",
+    "no",
+    "router",
+    "typescript"
+  ],
+  "author": "D10221",
+  "license": "ISC",
+  "dependencies": {
+    "history": "^4.5.1",
+    "mocha": "^3.2.0",
+    "path-to-regexp": "^1.7.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "@types/history": "^4.5.0",
+    "@types/mocha": "^2.2.38",
+    "@types/path-to-regexp": "^1.0.29",
+    "@types/react": "^15.0.4",
+    "@types/react-dom": "^0.14.21",
+    "rimraf": "^2.5.4",
+    "ts-loader": "^2.0.0"
+  }
+}

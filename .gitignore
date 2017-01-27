@@ -1,0 +1,9 @@
+node_modules/
+*.log
+built/
+_server/
+.idea/
+archive.zip
+.chrome/
+.local
+.vscode/
